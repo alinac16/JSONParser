@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alinac16/JSONParser/issues"
   },
-  "homepage": "https://github.com/alinac16/JSONParser#readme"
+  "homepage": "https://github.com/alinac16/JSONParser#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
