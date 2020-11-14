@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+      $(function () {
+        const $button = $("#parseFile");
+        $button.on("click", function () {
+          console.log("Button clicked, performing ajax call...");
+        });
+      });
+    </script>
+    <title>JSON Parser</title>
+  </head>
+  <body>
+    <p>Select a json file with</p>
+    <input id="file" type="file" />
+    <button id="parseFile">Parse</button>
+  </body>
+</html>
