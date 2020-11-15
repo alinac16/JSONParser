@@ -34,11 +34,13 @@ const Page = props => {
   return (
     <>
       <div>
-        <h1>Select a JSON file to parse</h1>
-        <input type="file" onChange={handleChange} />
-        <button disabled={!file} onClick={showHandler} id="parse-btn">
-          {!show ? "Parse" : "Hide"}
-        </button>
+        <h1 id="page-title">Select a JSON file to parse</h1>
+        <div id="input-btn">
+          <input type="file" onChange={handleChange} />
+          <button disabled={!file} onClick={showHandler} id="parse-btn">
+            {!show ? "Parse" : "Hide"}
+          </button>
+        </div>
       </div>
       <div>{show && <ParsedContent file={file} />}</div>
     </>
