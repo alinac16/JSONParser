@@ -5,15 +5,15 @@ This project's goal is to make a simple web app that accepts patient information
 ## Outputs
 
 The details that this app looks for are the following keys:
-Name of patient:
-Organization name:
-Gender:
-Number of conditions they have:
-List of all conditions:
+Name of patient:\n
+Organization name:\n
+Gender:\n
+Number of conditions they have:\n
+List of all conditions:\n
 
 ## Errors
 
-(1) There will be an error alerting the user if the file uploaded is not a json file
+(1) There will be an error alerting the user if the file uploaded is not a json file \n
 (2) If the particular detail cannot be found, there will be a red text that indicates the missing information
 
 ## Access
