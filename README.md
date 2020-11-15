@@ -13,7 +13,7 @@ List of all conditions
 
 ## Errors
 
-(1) There will be an error alerting the user if the file uploaded is not a json file. 
+(1) There will be an error alerting the user if the file uploaded is not a json file.  
 (2) If the particular detail cannot be found, there will be a red text that indicates the missing information
 
 ## Access
