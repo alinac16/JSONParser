@@ -5,8 +5,8 @@ This project's goal is to make a simple web app that accepts patient information
 ## Outputs
 
 The details that this app looks for are the following keys:
-Name of patient:\n
-Organization name:\n
+Name of patient:  
+Organization name:  
 Gender:\n
 Number of conditions they have:\n
 List of all conditions:\n
